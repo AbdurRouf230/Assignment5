@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title id="page-title">Emergency Service Directory</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Main Content Section -->
+  <div class="container">
+    <!-- Navbar Section with Language Toggle Button -->
+    <nav class="navbar">
+      <img src="B12-A5-Emergency-Hotline/assets/logo.png" alt="Emergency Logo" class="nav-logo" />
+      <span class="site-name" id="site-name">Emergency Service Directory</span>
+      <button id="lang-toggle" class="lang-toggle" aria-pressed="false">EN</button>
+    </nav>
+
+    <!-- Hero Section with title and slogan -->
+    <header class="hero">
+      <img src="B12-A5-Emergency-Hotline/assets/logo-dark.png" alt="Hero Logo" class="hero-logo" />
+      <h1 id="hero-title">Emergency Service Directory</h1>
+      <p id="hero-slogan">Your safety is our priority</p>
+    </header>
+
+    <!-- Emergency Service Cards -->
+    <section class="cards-section">
+      <div class="cards-grid">
+        <!-- 9 Emergency Service Cards -->
+        <div class="card">
+          <img src="B12-A5-Emergency-Hotline/assets/ambulance.png" alt="Ambulance Icon" class="card-icon" />
+          <h3 class="card-name" id="ambulance-name">National Emergency</h3>
+          <p class="card-number">999</p>
+          <div class="card-actions">
+            <button class="copy-btn">Copy</button>
+            <button class="call-btn">Call</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="B12-A5-Emergency-Hotline/assets/police.png" alt="Police Icon" class="card-icon" />
+          <h3 class="card-name" id="police-name">Police Helpline</h3>
+          <p class="card-number">999</p>
+          <div class="card-actions">
+            <button class="copy-btn">Copy</button>
+            <button class="call-btn">Call</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="B12-A5-Emergency-Hotline/assets/fire-service.png" alt="Fire Service Icon" class="card-icon" />
+          <h3 class="card-name" id="fire-service-name">Fire Service</h3>
+          <p class="card-number">999</p>
+          <div class="card-actions">
+            <button class="copy-btn">Copy</button>
+            <button class="call-btn">Call</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="Health Icon" class="card-icon" />
+          <h3 class="card-name" id="health-name">Health Quick Help</h3>
+          <p class="card-number">104</p>
+          <div class="card-actions">
+            <button class="copy-btn">Copy</button>
+            <button class="call-btn">Call</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="Electricity Icon" class="card-icon" />
+          <h3 class="card-name" id="electricity-name">Electricity Outage</h3>
+          <p class="card-number">16216</p>
+          <div class="card-actions">
+            <button class="copy-btn">Copy</button>
+            <button class="call-btn">Call</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="Women & Child Icon" class="card-icon" />
+          <h3 class="card-name" id="women-child-name">Women & Child Helpline</h3>
+          <p class="card-number">109</p>
+          <div class="card-actions">
+            <button class="copy-btn">Copy</button>
+            <button class="call-btn">Call</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="Anti-Corruption Icon" class="card-icon" />
+          <h3 class="card-name" id="anti-corruption-name">Anti-Corruption</h3>
+          <p class="card-number">106</p>
+          <div class="card-actions">
+            <button class="copy-btn">Copy</button>
+            <button class="call-btn">Call</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="Brac Icon" class="card-icon" />
+          <h3 class="card-name" id="brac-name">Brac</h3>
+          <p class="card-number">16445</p>
+          <div class="card-actions">
+            <button class="copy-btn">Copy</button>
+            <button class="call-btn">Call</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="Railway Icon" class="card-icon" />
+          <h3 class="card-name" id="railway-name">Bangladesh Railway</h3>
+          <p class="card-number">163</p>
+          <div class="card-actions">
+            <button class="copy-btn">Copy</button>
+            <button class="call-btn">Call</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call History Section -->
+    <aside class="history-panel">
+      <h2 id="history-title">Call History</h2>
+      <ul id="history-list">
+        <li>National Emergency - 999</li>
+        <li>Police - 999</li>
+        <li>Fire Service - 999</li>
+        <li>Bangladesh Railway - 163</li>
+        <!-- More history items -->
+      </ul>
+      <button id="clear-history-btn">Clear</button>
+    </aside>
+  </div>
+</body>
+</html>

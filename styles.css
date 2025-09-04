@@ -1,0 +1,185 @@
+/* Global Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f8f2;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f4f8f2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  background-color: #006a22;
+  color: white;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.site-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.lang-toggle {
+  background-color: #fff;
+  border: 1px solid #006a22;
+  color: #006a22;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.lang-toggle:hover {
+  background-color: #006a22;
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #006a22, #42b549);
+  text-align: center;
+  color: white;
+  padding: 3rem;
+  width: 100%;
+}
+
+.hero-logo {
+  width: 100px;
+}
+
+h1 {
+  margin-top: 15px;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Cards Section */
+.cards-section {
+  margin-top: 30px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.card-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.card-name {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.card-number {
+  font-size: 18px;
+  color: #006a22;
+  margin-top: 5px;
+}
+
+.card-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-actions button {
+  background-color: #006a22;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card-actions button:hover {
+  background-color: #004d1a;
+}
+
+.card-actions button:focus {
+  outline: none;
+}
+
+/* Call History Panel */
+.history-panel {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  position: absolute;
+  right: 20px;
+  top: 100px;
+}
+
+.history-panel h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.history-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.history-list li {
+  margin-bottom: 10px;
+}
+
+#clear-history-btn {
+  margin-top: 20px;
+  background-color: #006a22;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#clear-history-btn:hover {
+  background-color: #004d1a;
+}
